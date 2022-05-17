@@ -77,14 +77,14 @@ const Header = () => {
     <div>
         <Navbar />
         <div className='header-slide'>
-          <img src={headerimg} className='header-img' alt='' />
-          <div className='header-details'>
-            <h1>Your next property, find it.</h1>
-            <form className='header-form'>
-              <input type={'text'} placeholder='Enter an address, city, or state' />
-              <button className='btn'>Search</button>
-            </form>
-          </div>
+            <img src={headerimg} alt = "" />
+            <div className='header-details'>
+              <h1>Your next property, find it.</h1>
+              <form className='header-form'>
+                <input type={'text'} placeholder='Enter an address, city, or state' />
+                <button className='btn'>Search</button>
+              </form>
+            </div>
         </div>
     </div>
   )
