@@ -1,9 +1,10 @@
 import React from 'react'
 import logo from './PREX Logo.png'
 import headerimg from './Hero Image.jpg'
+import dashboard from './Vector (5).png'
 import {ArrowDown2, UserCirlceAdd, Element4, Setting2} from 'iconsax-react'
 import {Notification, Heart, Monitor} from 'iconsax-react'
-import {Menu, LogoutCurve} from 'iconsax-react'
+import { LogoutCurve} from 'iconsax-react'
 import './styles.css';
 
 const Navbar = () =>{
@@ -43,7 +44,7 @@ const Navbar = () =>{
               <div >
                   <ul className='nav-icons'>
                     <li><Notification size="32" color="#212529" /></li>
-                    <li><Menu size="32" color="#000000" variant="Bold"/></li>
+                    <li><img src={dashboard} alt='' /></li>
                     <li className='nav-account' >
                       <UserCirlceAdd size="32" color="#000000" variant="Bold"/> 
                       Dashboard 
