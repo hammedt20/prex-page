@@ -1,14 +1,14 @@
 import React from 'react'
-import { Youtube,Facebook,Instagram } from 'iconsax-react'
-import twitter from './Vector (3).png'
-import linkedn from './Vector (4).png'
-import logo from './PREX Logo (2).png'
+import { Youtube, Facebook, Instagram } from 'iconsax-react'
+import twitter from './images/Vector (3).png'
+import linkedn from './images/Vector (4).png'
+import logo from './images/PREX Logo (2).png'
 import './styles.css'
 
 const Footer = () => {
   return (
     <footer className='footer'>
-        <section className='footer-list grid container'>
+        <section className='footer-list container'>
           <ul>
             <li className='footer-list-title'>Products</li>
             <li>PREX Listing</li>
