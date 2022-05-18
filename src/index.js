@@ -6,9 +6,10 @@ import Footer from './Footer'
 import './styles.css';
 
 ReactDom.render (
-    <>
-        <Header />
-        <Main />
-        <Footer />
-    </>, 
-    document.getElementById('root'));
+  <>
+    <Header />
+    <Main />
+    <Footer />
+  </>, 
+  document.getElementById('root')
+);
